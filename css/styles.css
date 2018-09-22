@@ -1,0 +1,174 @@
+@charset "utf-8";
+
+body{
+	font-family: Roboto, "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+	line-height: 1.75;
+	font-size: 16px;
+}
+
+/* パディングをサイズ内側にする処理 */
+* {
+	padding:0;
+	margin:0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+
+h1{
+    text-align: center;
+    user-select: none;
+}
+
+.btn {
+    text-align: center;
+    padding-top: 3px;
+    border-radius: 5px;
+    margin-left: 25px;
+    margin-right: 25px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.btn:hover {
+    opacity: 0.5;
+}
+
+.topsoto{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 300px;
+}
+
+.topnaka{
+    width: 400px;
+    height: 300px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    width: 700px;
+    margin: 0 auto ;
+}
+
+.modal{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 100;
+    text-align: center;
+ }
+
+#firstimg,#secondimg,#thirdimg{
+    display:none;
+}
+
+#topimg{
+    user-select: none;
+}
+
+.hand{
+    width: 50px;
+    height: 50px;
+}
+
+#mess,#mess2{
+    font-size: 50px;
+    text-align: center;
+    color: #fff;
+    margin-top: 180px;
+    display: inline-block;
+}
+
+#mess4{
+    font-size: 50px;
+    text-align: center;
+    color: #fff;
+    margin-top: 40px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+
+#mess{
+    margin-bottom: 30px;
+    user-select: none;
+}
+
+#mess2{
+    user-select:none;
+    display: block;
+}
+
+.mess3{
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+    margin: 0 20px;
+    border: 2px #fff solid;
+    width: 170px;
+    height: 50px;
+    padding-top: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.mess3:hover{
+    color: burlywood;
+    border: 2px burlywood solid;
+    opacity: 0.8;
+}
+
+#mess4:hover{
+    color: burlywood;
+    opacity: 0.8;
+}
+
+.flex{
+display: flex;
+justify-content: center;
+}
+
+#result_text{
+    font-size: 20px;
+    user-select: none;
+}
+
+.info{
+    color:#ccc;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.cnt {
+    width: 100px;
+    height: 50px;
+    user-select: none;
+}
+
+.counter{
+    position: fixed;
+    top:5px;
+    right:5px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.fix{
+    width: 95px;
+    user-select: none;
+}

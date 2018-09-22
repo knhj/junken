@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>じゃんけんアプリ</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="css/sanitize.css" />
+</head>
+
+<body>
+    <h1>じゃんけんあぷり</h1>
+    <div class="topsoto">
+        <div class="topnaka">
+            <div id="topimg">
+                <ul>
+                    <li>
+                        <img id="firstimg" src="img/009.png" alt="" />
+                    </li>
+                    <li>
+                        <img id="secondimg" src="img/002.png" alt="" />
+                    </li>
+                    <li>
+                        <img id="thirdimg" src="img/001.png" alt="" />
+                    </li>
+                </ul>
+            </div>
+            <div id="result_text"></div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="btn gu">
+            <img class="hand" src="img/gu.jpg" alt="">
+        </div>
+        <div class="btn choki">
+            <img class="hand" src="img/cho.jpg" alt="">
+        </div>
+        <div class="btn pa">
+            <img class="hand" src="img/pa.jpg" alt="">
+        </div>
+    </div>
+    <div class="info">
+        <div class="cnt">勝ち:
+            <span id="win"></span>
+        </div>
+        <div class="cnt">負け:
+            <span id="lose"></span>
+        </div>
+        <div class="cnt">あいこ：
+            <span id="draw"></span>
+        </div>
+    </div>
+
+    <div class="counter">
+        <div class="fix">グー:
+            <span id="num1"></span>
+        </div>
+        <div class="fix">チョキ:
+            <span id="num2"></span>
+        </div>
+        <div class="fix">パー：
+            <span id="num3"></span>
+        </div>
+    </div>
+
+
+    <div class="modal">
+        <div id="mess">じゃんけんする？</div>
+        <div class="flex">
+            <div class="mess3" id="three">3回勝負</div>
+            <div class="mess3" id="five">5回勝負</div>
+            <div class="mess3" id="ten">10回勝負</div>
+        </div>
+        <div id="mess2"></div>
+        <div id="mess4"></div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/main.js" charset="UTF-8"></script>
+</body>
+
+</html>
