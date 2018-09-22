@@ -14,6 +14,7 @@ $(document).ready(function () {
 
     var bnum = "";
 
+    //敵のだす手→最初は1/3づつ
     var enemy_select = [0, 0, 0, 0, 1, 1, 1, 1, 2, 2, 2, 2];
 
     /////////////////////////
